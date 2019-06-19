@@ -24,12 +24,19 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="5nk-T0-J98">
+                                <rect key="frame" x="30" y="132" width="315" height="505"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ATP-eY-o3j" secondAttribute="trailing" constant="20" id="CpJ-3A-yIa"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="5nk-T0-J98" secondAttribute="bottom" constant="30" id="Dmz-kt-Sq6"/>
                             <constraint firstItem="ATP-eY-o3j" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="R52-0R-NTU"/>
+                            <constraint firstItem="5nk-T0-J98" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="30" id="YD4-z0-46p"/>
+                            <constraint firstItem="5nk-T0-J98" firstAttribute="top" secondItem="ATP-eY-o3j" secondAttribute="bottom" constant="30" id="hYe-L5-pao"/>
                             <constraint firstItem="ATP-eY-o3j" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="jyy-vl-keW"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="5nk-T0-J98" secondAttribute="trailing" constant="30" id="nSI-yr-RJl"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
